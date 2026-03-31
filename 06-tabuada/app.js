@@ -55,8 +55,6 @@ const criarListaDivisao = function(quantidade){
 
 }
 
-console.log(criarListaDivisao(10))
-
 const criarLinha = function(num, adicao, sub, mult, div){
     const tbody = document.getElementById('tbody')
     const tr = document.createElement('tr')
