@@ -34,6 +34,7 @@ const criarListaImpares = function(quantidade){
     return listaImpares
 }
 
+
 const criarListaMultiplos = function(quantidade){
     let listaMultiplos = [] 
     
@@ -92,7 +93,7 @@ const handleClick = function(){
     document.getElementById('tbody').replaceChildren()
 
     for(let i = 0; i < quantidade; i++){
-        criarLinha(listaImpares[i], listaNumeros[i], listaPares[i], listaPotencias[i], listaMultiplos[i])
+        criarLinha(listaNumeros[i], listaPares[i],listaImpares[i], listaMultiplos[i],listaPotencias[i])
     }
 }
 // console.log(criarListaNumeros(6))
